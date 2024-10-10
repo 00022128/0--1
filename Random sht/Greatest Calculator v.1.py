@@ -114,6 +114,9 @@ menu()
 
 
 
+def myfunc(myarg):
+    print(myarg)
 
+myfunc("abc")
 
 
