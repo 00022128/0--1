@@ -15,7 +15,7 @@ for key, value in menu.items():
     print(f'{key:10}: ${value:.2f}')
 
 while True:
-        food = input("Select your item (q or quit): ").lower()
+        food = input("Select your item (q to quit): ").lower()
         if food == 'q':
             print("Thank you for your order !")
             break
